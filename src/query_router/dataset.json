@@ -1,0 +1,41 @@
+[
+  {"query": "Mâm cúng nhập trạch nhà mới theo phong tục miền Bắc cần chuẩn bị những gì?", "label": "knowledge_qa", "is_ood": false},
+  {"query": "Bài văn khấn lễ khai trương cửa hàng kinh doanh chuẩn truyền thống", "label": "knowledge_qa", "is_ood": false},
+  {"query": "Ý nghĩa tâm linh của tục cúng tạ đất cuối năm của người Việt", "label": "knowledge_qa", "is_ood": false},
+  {"query": "Cách bày mâm ngũ quả trên bàn thờ gia tiên ngày Tết đúng phong tục cổ truyền", "label": "knowledge_qa", "is_ood": false},
+  {"query": "Lễ cúng đầy tháng cho bé gái cần chuẩn bị những đồ lễ gì?", "label": "knowledge_qa", "is_ood": false},
+  {"query": "Khung giờ đẹp làm lễ cúng ông Công ông Táo ngày 23 tháng Chạp", "label": "knowledge_qa", "is_ood": false},
+  {"query": "Nghi thức cúng thí thực cô hồn tháng 7 nên đặt lễ trong nhà hay ngoài sân?", "label": "knowledge_qa", "is_ood": false},
+
+  {"query": "Bên bạn có bán gà trống thiến luộc cánh tiên ngậm hoa hồng không?", "label": "product_search", "is_ood": false},
+  {"query": "Giá một giỏ ngũ quả thắp hương mùng 1 là bao nhiêu?", "label": "product_search", "is_ood": false},
+  {"query": "Một đĩa xôi gấc ba tầng khắc chữ Vạn giá bao nhiêu tiền?", "label": "product_search", "is_ood": false},
+  {"query": "Cửa hàng có bán sẵn bộ tam sên cúng ban Thần Tài không?", "label": "product_search", "is_ood": false},
+  {"query": "Tìm giúp tôi bộ quần áo mã và tiền vàng cúng quan Thần Linh", "label": "product_search", "is_ood": false},
+  {"query": "Bên mình có nhận đặt heo sữa quay nguyên con làm lễ cúng không?", "label": "product_search", "is_ood": false},
+  {"query": "Giá một cặp đèn cầy ly hoa sen thờ cúng bàn Phật là bao nhiêu?", "label": "product_search", "is_ood": false},
+
+  {"query": "Lên danh sách các món cần sắm cho lễ thôi nôi rồi tính tổng tiền giúp tôi", "label": "multi_step", "is_ood": false},
+  {"query": "Lập danh sách lễ vật cúng rằm tháng Giêng và kiểm tra xem kho còn đủ hàng không", "label": "multi_step", "is_ood": false},
+  {"query": "Chọn cho tôi một combo mâm cúng động thổ tầm 2 triệu và tính phí ship về Cầu Giấy", "label": "multi_step", "is_ood": false},
+  {"query": "Kiểm tra xem cửa hàng còn gà luộc và chè trôi nước không, nếu còn thì cộng tổng chi phí", "label": "multi_step", "is_ood": false},
+  {"query": "Lập danh sách đồ cúng thôi nôi bé trai, đối chiếu tồn kho xem món nào phải đặt trước", "label": "multi_step", "is_ood": false},
+  {"query": "Tính tổng tiền làm 3 mâm cỗ mặn truyền thống để làm lễ giỗ đầu", "label": "multi_step", "is_ood": false},
+  {"query": "Gom toàn bộ đồ mã và xôi chè cúng cất nóc vào đơn hàng rồi xuất hóa đơn thanh toán", "label": "multi_step", "is_ood": false},
+
+  {"query": "Cho tôi đặt một cái mâm cúng", "label": "ambiguous", "is_ood": false},
+  {"query": "Tôi muốn đặt đồ lễ gấp giao trong ngày", "label": "ambiguous", "is_ood": false},
+  {"query": "Tư vấn chọn mâm cúng giúp tôi với", "label": "ambiguous", "is_ood": false},
+  {"query": "Lấy cho tôi combo lễ vật giá bình dân nhất", "label": "ambiguous", "is_ood": false},
+  {"query": "Tôi cần mua đồ thắp hương bàn thờ", "label": "ambiguous", "is_ood": false},
+  {"query": "Ship cho tôi một mâm đồ cúng vào chiều nay", "label": "ambiguous", "is_ood": false},
+  {"query": "Bộ đồ cúng này trọn gói bao nhiêu tiền?", "label": "ambiguous", "is_ood": false},
+
+  {"query": "Nghi thức thờ cúng Hùng Vương có nguồn gốc lịch sử bắt đầu từ triều đại nào?", "label": "ood", "is_ood": true},
+  {"query": "Luật tục phân chia quyền thừa kế nhà thờ họ của người Việt quy định thế nào?", "label": "ood", "is_ood": true},
+  {"query": "Xem bói tử vi và rút một quẻ xăm đầu năm cho tuổi Canh Thìn", "label": "ood", "is_ood": true},
+  {"query": "Ý nghĩa các họa tiết hoa văn chim Lạc trên mặt Trống đồng Đông Sơn", "label": "ood", "is_ood": true},
+  {"query": "Giá tour du lịch trọn gói tham gia lễ hội chùa Hương 2 ngày 1 đêm", "label": "ood", "is_ood": true},
+  {"query": "Phân tích giá trị nghệ thuật của kiến trúc điêu khắc đình làng thế kỷ 17", "label": "ood", "is_ood": true},
+  {"query": "Phong tục hát Then giải hạn của người Tày ở vùng núi phía Bắc diễn ra thế nào?", "label": "ood", "is_ood": true}
+]

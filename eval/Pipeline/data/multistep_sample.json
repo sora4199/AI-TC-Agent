@@ -1,0 +1,20 @@
+[
+  {
+    "id": "multi_001",
+    "case_type": "normal",
+    "input": {"query": "Tìm vé máy bay rẻ nhất Hà Nội - Đà Nẵng tuần sau rồi tóm tắt giúp tôi"},
+    "ground_truth": {
+      "steps": [{"action": "search_flights"}, {"action": "sort_by_price"}, {"action": "summarize"}],
+      "answer": "Vé rẻ nhất là Vietjet, 1.200.000đ, bay thứ 3 tuần sau"
+    }
+  },
+  {
+    "id": "multi_002",
+    "case_type": "edge",
+    "input": {"query": "So sánh giá 2 chuyến bay tôi vừa hỏi"},
+    "ground_truth": {
+      "steps": [{"action": "recall_context"}, {"action": "compare"}, {"action": "summarize"}],
+      "answer": "Chuyến A rẻ hơn chuyến B 200.000đ"
+    }
+  }
+]

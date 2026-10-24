@@ -1,0 +1,14 @@
+metric,bm25_baseline,embedding_v2
+mrr,0.0,0.5
+ndcg@1,0.0,0.5
+ndcg@10,0.0,0.5
+ndcg@3,0.0,0.5
+ndcg@5,0.0,0.5
+precision@1,0.0,0.5
+precision@10,0.0,0.5
+precision@3,0.0,0.5
+precision@5,0.0,0.5
+recall@1,0.0,0.25
+recall@10,0.0,0.5
+recall@3,0.0,0.5
+recall@5,0.0,0.5

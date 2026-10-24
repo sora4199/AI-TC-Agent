@@ -1,0 +1,14 @@
+[
+  {
+    "id": "fewshot_001",
+    "case_type": "normal",
+    "input": {"query": "Tính đạo hàm của x^2 + 3x", "candidate_pool_size": 20},
+    "ground_truth": {"relevant_example_ids": ["ex_012", "ex_045"]}
+  },
+  {
+    "id": "fewshot_002",
+    "case_type": "edge",
+    "input": {"query": "Viết email xin nghỉ phép", "candidate_pool_size": 20},
+    "ground_truth": {"relevant_example_ids": ["ex_003"]}
+  }
+]

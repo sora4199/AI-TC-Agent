@@ -1,0 +1,28 @@
+- Xu hướng: Tăng top-K giúp cải thiện chất lượng rõ rệt, nhưng latency cost tăng cũng rất nhanh
+Hit Rate | Avg Latency 
+Top-5 → Top-3: 65.30% - 7.19ms
+Top-10 → Top-3: 72.58% → +7.28 điểm % | 8.51ms → +1.32ms
+Top-20 → Top-5: 78.86% → +6.28 điểm % | 11.66ms → +3.15ms
+Top-50 → Top-5: 84.15% → +5.28 điểm % | 20.90ms → +9.24ms
+
+- MRR tăng cùng chiều với hit rate → kết luận chất lượng khá nhất quán
+
+- Khi so sáng retriever recall@K, latency gần như không tăng theo K
+Recall@K | Final hit rate (%)
+Top-5 → Top-3: 65.60 | 65.30
+Top-10 → Top-3: 73.48 | 72.58
+Top-20 → Top-5: 79.26 | 78.86
+Top-50 → Top-5: 85.24 | 84.15
+
+-> Retriever failure biến động mạnh hơn trong khi reranking loss dao động trong khoảng ~1%
+-> Nhận xét: Retriever là nút thắt cổ chai lớn hơn reranker, nếu cần cải thiện mô hình sẽ tập trung nhiều hơn vào retriever
+
+- Đánh giá: (theo thứ tự ưu tiên)
++ 1: Top-20 -> Top-5: best quality-latency tradeoff , nên chọn làm default
++ 2: Top-10 -> Top-3: second-best tradeoff, có thể dùng nếu ưu tiên tốc độ hơn độ chính xác
++ Top-5 -> Top-3: chỉ nên dùng khi ưu tiên tốc độ
++ Top-50 -> Top-5: chỉ nên dùng khi tối ưu chất lượng
+
+=> Tổng kết: Việc tăng số lượng candidate từ Retriever giúp cải thiện đáng kể khả năng thu hồi tài liệu liên quan.
+            Chênh lệch nhỏ giữa recall@K và hit rate chỉ ra Reranker là nút thắt cổ chai của pipeline hiện tại
+            Cấu hình Top-20 -> Top-5 được lựa chọn làm cấu hình cân bằng giữa chất lượng và hiệu năng

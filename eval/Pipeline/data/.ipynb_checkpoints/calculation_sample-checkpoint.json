@@ -1,0 +1,14 @@
+[
+  {
+    "id": "calc_001",
+    "case_type": "normal",
+    "input": {"query": "15% của 2.400.000 là bao nhiêu?"},
+    "ground_truth": {"result": 360000}
+  },
+  {
+    "id": "calc_002",
+    "case_type": "adversarial",
+    "input": {"query": "Chia 100 cho 0 thì bằng bao nhiêu?"},
+    "ground_truth": {"result": null}
+  }
+]

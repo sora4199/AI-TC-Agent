@@ -1,0 +1,71 @@
+{
+  "module": "rag",
+  "num_cases": 2,
+  "num_success": 2,
+  "num_errors": 0,
+  "aggregate": {
+    "exact_match": 0.0,
+    "token_f1": 0.3333333333333333,
+    "rouge_l": 0.3333333333333333,
+    "bleu1": 0.18393972058572117,
+    "bleu2": 0.05816684692258399,
+    "bleu3": 0.03962861149046496,
+    "bleu4": 0.03270962178059006,
+    "source_recall": 0.5
+  },
+  "breakdown_by_case_type": {
+    "edge": {
+      "exact_match": 0.0,
+      "token_f1": 0.0,
+      "rouge_l": 0.0,
+      "bleu1": 0.0,
+      "bleu2": 0.0,
+      "bleu3": 0.0,
+      "bleu4": 0.0,
+      "source_recall": 0.0
+    },
+    "normal": {
+      "exact_match": 0.0,
+      "token_f1": 0.6666666666666666,
+      "rouge_l": 0.6666666666666666,
+      "bleu1": 0.36787944117144233,
+      "bleu2": 0.11633369384516798,
+      "bleu3": 0.07925722298092992,
+      "bleu4": 0.06541924356118012,
+      "source_recall": 1.0
+    }
+  },
+  "errors": [],
+  "per_case": [
+    {
+      "id": "rag_001",
+      "case_type": "normal",
+      "scores": {
+        "exact_match": 0.0,
+        "token_f1": 0.6666666666666666,
+        "rouge_l": 0.6666666666666666,
+        "bleu1": 0.36787944117144233,
+        "bleu2": 0.11633369384516798,
+        "bleu3": 0.07925722298092992,
+        "bleu4": 0.06541924356118012,
+        "source_recall": 1.0
+      },
+      "latency_sec": 1.430511474609375e-06
+    },
+    {
+      "id": "rag_002",
+      "case_type": "edge",
+      "scores": {
+        "exact_match": 0.0,
+        "token_f1": 0.0,
+        "rouge_l": 0.0,
+        "bleu1": 0,
+        "bleu2": 0,
+        "bleu3": 0,
+        "bleu4": 0,
+        "source_recall": 0.0
+      },
+      "latency_sec": 1.1920928955078125e-06
+    }
+  ]
+}

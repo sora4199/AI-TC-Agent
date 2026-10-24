@@ -1,0 +1,14 @@
+[
+  {
+    "id": "rag_001",
+    "case_type": "normal",
+    "input": {"query": "Ai là tổng thống thứ 45 của Mỹ?", "session_id": "s1", "user_id": null, "metadata": {}},
+    "ground_truth": {"answer": "Donald Trump", "source_ids": ["doc_022"]}
+  },
+  {
+    "id": "rag_002",
+    "case_type": "edge",
+    "input": {"query": "Trong ngày giỗ cần chuẩn bị gì?", "session_id": "s1", "user_id": null, "metadata": {}},
+    "ground_truth": {"answer": "Cần chuẩn bị mâm cỗ, hương hoa và mời họ hàng", "source_ids": ["doc_001"]}
+  }
+]

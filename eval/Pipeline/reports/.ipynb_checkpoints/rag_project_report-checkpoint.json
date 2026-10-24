@@ -1,0 +1,71 @@
+{
+  "module": "rag",
+  "num_cases": 2,
+  "num_success": 2,
+  "num_errors": 0,
+  "aggregate": {
+    "exact_match": 0.0,
+    "token_f1": 0.0,
+    "rouge_l": 0.0,
+    "bleu1": 0.0,
+    "bleu2": 0.0,
+    "bleu3": 0.0,
+    "bleu4": 0.0,
+    "source_recall": 0.0
+  },
+  "breakdown_by_case_type": {
+    "normal": {
+      "exact_match": 0.0,
+      "token_f1": 0.0,
+      "rouge_l": 0.0,
+      "bleu1": 0.0,
+      "bleu2": 0.0,
+      "bleu3": 0.0,
+      "bleu4": 0.0,
+      "source_recall": 0.0
+    },
+    "edge": {
+      "exact_match": 0.0,
+      "token_f1": 0.0,
+      "rouge_l": 0.0,
+      "bleu1": 0.0,
+      "bleu2": 0.0,
+      "bleu3": 0.0,
+      "bleu4": 0.0,
+      "source_recall": 0.0
+    }
+  },
+  "errors": [],
+  "per_case": [
+    {
+      "id": "rag_001",
+      "case_type": "normal",
+      "scores": {
+        "exact_match": 0.0,
+        "token_f1": 0.0,
+        "rouge_l": 0.0,
+        "bleu1": 0.0,
+        "bleu2": 0.0,
+        "bleu3": 0.0,
+        "bleu4": 0.0,
+        "source_recall": 0.0
+      },
+      "latency_sec": 0.028907299041748047
+    },
+    {
+      "id": "rag_002",
+      "case_type": "edge",
+      "scores": {
+        "exact_match": 0.0,
+        "token_f1": 0.0,
+        "rouge_l": 0.0,
+        "bleu1": 0.0,
+        "bleu2": 0.0,
+        "bleu3": 0.0,
+        "bleu4": 0.0,
+        "source_recall": 0.0
+      },
+      "latency_sec": 0.006450176239013672
+    }
+  ]
+}

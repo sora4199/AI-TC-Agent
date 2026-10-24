@@ -1,0 +1,53 @@
+{
+  "module": "retriever[bm25_baseline]",
+  "metric": "recall@5",
+  "threshold": 0.5,
+  "num_failures": 2,
+  "num_total": 2,
+  "failure_rate": 1.0,
+  "breakdown_by_case_type": {
+    "normal": 2
+  },
+  "failures": [
+    {
+      "id": "retr_001",
+      "case_type": "normal",
+      "scores": {
+        "mrr": 0.0,
+        "recall@1": 0.0,
+        "precision@1": 0.0,
+        "ndcg@1": 0.0,
+        "recall@3": 0.0,
+        "precision@3": 0.0,
+        "ndcg@3": 0.0,
+        "recall@5": 0.0,
+        "precision@5": 0.0,
+        "ndcg@5": 0.0,
+        "recall@10": 0.0,
+        "precision@10": 0.0,
+        "ndcg@10": 0.0
+      },
+      "latency_sec": 1.430511474609375e-06
+    },
+    {
+      "id": "retr_002",
+      "case_type": "normal",
+      "scores": {
+        "mrr": 0.0,
+        "recall@1": 0.0,
+        "precision@1": 0.0,
+        "ndcg@1": 0.0,
+        "recall@3": 0.0,
+        "precision@3": 0.0,
+        "ndcg@3": 0.0,
+        "recall@5": 0.0,
+        "precision@5": 0.0,
+        "ndcg@5": 0.0,
+        "recall@10": 0.0,
+        "precision@10": 0.0,
+        "ndcg@10": 0.0
+      },
+      "latency_sec": 1.1920928955078125e-06
+    }
+  ]
+}

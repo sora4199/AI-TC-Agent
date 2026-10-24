@@ -1,0 +1,81 @@
+{
+  "module": "retriever",
+  "num_cases": 2,
+  "num_success": 2,
+  "num_errors": 0,
+  "aggregate": {
+    "mrr": 0.5,
+    "recall@1": 0.25,
+    "precision@1": 0.5,
+    "ndcg@1": 0.5,
+    "recall@3": 0.25,
+    "precision@3": 0.25,
+    "ndcg@3": 0.3065735963827292,
+    "recall@5": 0.25,
+    "precision@5": 0.25,
+    "ndcg@5": 0.3065735963827292,
+    "recall@10": 0.25,
+    "precision@10": 0.25,
+    "ndcg@10": 0.3065735963827292
+  },
+  "breakdown_by_case_type": {
+    "normal": {
+      "mrr": 0.5,
+      "recall@1": 0.25,
+      "precision@1": 0.5,
+      "ndcg@1": 0.5,
+      "recall@3": 0.25,
+      "precision@3": 0.25,
+      "ndcg@3": 0.3065735963827292,
+      "recall@5": 0.25,
+      "precision@5": 0.25,
+      "ndcg@5": 0.3065735963827292,
+      "recall@10": 0.25,
+      "precision@10": 0.25,
+      "ndcg@10": 0.3065735963827292
+    }
+  },
+  "errors": [],
+  "per_case": [
+    {
+      "id": "retr_001",
+      "case_type": "normal",
+      "scores": {
+        "mrr": 1.0,
+        "recall@1": 0.5,
+        "precision@1": 1.0,
+        "ndcg@1": 1.0,
+        "recall@3": 0.5,
+        "precision@3": 0.5,
+        "ndcg@3": 0.6131471927654584,
+        "recall@5": 0.5,
+        "precision@5": 0.5,
+        "ndcg@5": 0.6131471927654584,
+        "recall@10": 0.5,
+        "precision@10": 0.5,
+        "ndcg@10": 0.6131471927654584
+      },
+      "latency_sec": 1.9073486328125e-06
+    },
+    {
+      "id": "retr_002",
+      "case_type": "normal",
+      "scores": {
+        "mrr": 0.0,
+        "recall@1": 0.0,
+        "precision@1": 0.0,
+        "ndcg@1": 0.0,
+        "recall@3": 0.0,
+        "precision@3": 0.0,
+        "ndcg@3": 0.0,
+        "recall@5": 0.0,
+        "precision@5": 0.0,
+        "ndcg@5": 0.0,
+        "recall@10": 0.0,
+        "precision@10": 0.0,
+        "ndcg@10": 0.0
+      },
+      "latency_sec": 1.1920928955078125e-06
+    }
+  ]
+}

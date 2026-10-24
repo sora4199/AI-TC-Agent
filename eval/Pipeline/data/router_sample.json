@@ -1,0 +1,20 @@
+[
+  {
+    "id": "router_001",
+    "case_type": "normal",
+    "input": {"query": "Cách chuẩn bị lễ giỗ như thế nào?", "session_id": "s1", "user_id": null, "metadata": {}},
+    "ground_truth": {"route": "rag"}
+  },
+  {
+    "id": "router_002",
+    "case_type": "normal",
+    "input": {"query": "Tính giúp tôi 15% của 2.400.000", "session_id": "s1", "user_id": null, "metadata": {}},
+    "ground_truth": {"route": "agent"}
+  },
+  {
+    "id": "router_003",
+    "case_type": "edge",
+    "input": {"query": "Hôm nay ăn gì nhỉ", "session_id": "s2", "user_id": null, "metadata": {}},
+    "ground_truth": {"route": "ood"}
+  }
+]

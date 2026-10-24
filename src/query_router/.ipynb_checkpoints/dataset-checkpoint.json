@@ -1,0 +1,12 @@
+[
+  {"query": "Mâm cúng nhập trạch nhà mới cần chuẩn bị những gì?", "label": "knowledge_qa", "is_ood": false},
+  {"query": "Văn khấn khai trương cửa hàng đọc thế nào?", "label": "knowledge_qa", "is_ood": false},
+  {"query": "Bên bạn có bán gà luộc cánh tiên không?", "label": "product_search", "is_ood": false},
+  {"query": "Giá giỏ hoa quả ngũ quả là bao nhiêu?", "label": "product_search", "is_ood": false},
+  {"query": "Tìm các món cần mua cho lễ thôi nôi rồi tính tổng tiền", "label": "multi_step", "is_ood": false},
+  {"query": "Lên danh sách mâm cúng rằm và kiểm tra xem còn đủ hàng không", "label": "multi_step", "is_ood": false},
+  {"query": "Cho tôi một cái mâm cúng", "label": "ambiguous", "is_ood": false},
+  {"query": "Tôi muốn đặt đồ lễ gấp", "label": "ambiguous", "is_ood": false},
+  {"query": "Thời tiết Hà Nội hôm nay thế nào?", "label": "ood", "is_ood": true},
+  {"query": "Viết thuật toán sort array bằng Python", "label": "ood", "is_ood": true}
+]

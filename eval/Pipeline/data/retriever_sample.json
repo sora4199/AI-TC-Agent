@@ -1,0 +1,14 @@
+[
+  {
+    "id": "retr_001",
+    "case_type": "normal",
+    "input": {"query": "cách chuẩn bị lễ giỗ", "top_k": 5},
+    "ground_truth": {"relevant_doc_ids": ["doc_001", "doc_004"]}
+  },
+  {
+    "id": "retr_002",
+    "case_type": "normal",
+    "input": {"query": "quy trình xin visa du học", "top_k": 5},
+    "ground_truth": {"relevant_doc_ids": ["doc_010"]}
+  }
+]

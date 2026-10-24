@@ -1,0 +1,110 @@
+{
+  "module": "router",
+  "num_cases": 3,
+  "num_success": 3,
+  "num_errors": 0,
+  "aggregate": {
+    "accuracy": 1.0,
+    "per_class": {
+      "rag": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "agent": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "ood": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    },
+    "confusion_matrix": {
+      "rag": {
+        "rag": 1
+      },
+      "agent": {
+        "agent": 1
+      },
+      "ood": {
+        "ood": 1
+      }
+    }
+  },
+  "breakdown_by_case_type": {
+    "edge": {
+      "accuracy": 1.0,
+      "per_class": {
+        "ood": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "confusion_matrix": {
+        "ood": {
+          "ood": 1
+        }
+      }
+    },
+    "normal": {
+      "accuracy": 1.0,
+      "per_class": {
+        "rag": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "agent": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "confusion_matrix": {
+        "rag": {
+          "rag": 1
+        },
+        "agent": {
+          "agent": 1
+        }
+      }
+    }
+  },
+  "errors": [],
+  "per_case": [
+    {
+      "id": "router_001",
+      "case_type": "normal",
+      "scores": {
+        "correct": 1.0,
+        "predicted_route": "rag",
+        "ground_truth_route": "rag"
+      },
+      "latency_sec": 2.6702880859375e-05
+    },
+    {
+      "id": "router_002",
+      "case_type": "normal",
+      "scores": {
+        "correct": 1.0,
+        "predicted_route": "agent",
+        "ground_truth_route": "agent"
+      },
+      "latency_sec": 2.86102294921875e-06
+    },
+    {
+      "id": "router_003",
+      "case_type": "edge",
+      "scores": {
+        "correct": 1.0,
+        "predicted_route": "ood",
+        "ground_truth_route": "ood"
+      },
+      "latency_sec": 2.384185791015625e-06
+    }
+  ]
+}

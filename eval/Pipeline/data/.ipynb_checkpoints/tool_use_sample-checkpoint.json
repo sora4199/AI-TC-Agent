@@ -1,0 +1,17 @@
+[
+  {
+    "id": "tool_001",
+    "case_type": "normal",
+    "input": {"query": "Đặt lịch nhắc tôi uống thuốc lúc 8h sáng mai"},
+    "ground_truth": {"tool_calls": [{"tool_name": "set_reminder", "arguments": {"time": "08:00", "message": "uống thuốc"}}]}
+  },
+  {
+    "id": "tool_002",
+    "case_type": "edge",
+    "input": {"query": "Tìm nhà hàng gần đây rồi đặt bàn cho 4 người lúc 7h tối"},
+    "ground_truth": {"tool_calls": [
+      {"tool_name": "search_restaurant", "arguments": {"radius_km": 2}},
+      {"tool_name": "book_table", "arguments": {"party_size": 4, "time": "19:00"}}
+    ]}
+  }
+]
